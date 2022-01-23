@@ -36,10 +36,12 @@ export function TaskList() {
     if(findTask.isComplete == true) {
       const newTasks = [...tasks];
       newTasks[taskIndex].isComplete = false;
+
       setTasks(newTasks);
     } else {
       const newTasks = [...tasks];
       newTasks[taskIndex].isComplete = true;
+      
       setTasks(newTasks);
     }
   }
