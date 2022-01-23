@@ -18,4 +18,6 @@
 - Abra a pasta dele no terminal e digite o comando ```yarn``` para instalar as dependências
 - Execute o comando ```yarn dev``` e pronto, a aplicação estará rodando na sua máquina!
 
+<br><br>
+
 ![Foto do site](./todo-list.png)
